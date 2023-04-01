@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7314C6429D782DB006AAC3A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		D7314C6529D7849B006AAC3A /* Art-Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Art-Generator-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D7314C6629D794B8006AAC3A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D784A96D29D859A900AB00FA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D784A96F29D85CCA00AB00FA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		D7F6702129D62D06003ECD3A /* Art Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F6702429D62D06003ECD3A /* Art_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art_GeneratorApp.swift; sourceTree = "<group>"; };
 		D7F6702629D62D06003ECD3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 				D7F6702629D62D06003ECD3A /* ContentView.swift */,
 				D7F6702829D62D09003ECD3A /* Assets.xcassets */,
 				D7F6703229D6379B003ECD3A /* Launch Screen.storyboard */,
-				D7314C6429D782DB006AAC3A /* Config.xcconfig */,
+				D784A96F29D85CCA00AB00FA /* Config.xcconfig */,
 				D7F6702A29D62D09003ECD3A /* Preview Content */,
 			);
 			path = "Art Generator";
@@ -163,7 +163,6 @@
 /* Begin XCBuildConfiguration section */
 		D7F6702D29D62D09003ECD3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7314C6429D782DB006AAC3A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -224,7 +223,6 @@
 		};
 		D7F6702E29D62D09003ECD3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7314C6429D782DB006AAC3A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
